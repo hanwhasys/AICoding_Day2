@@ -1,5 +1,5 @@
-# AI_EDU
-AI 코딩 교육 5차수 (10.27~10.28)
+# AI 코딩 교육 9차수 (11.27~11.28)
+2일차 자료 및 정보
 
 # 프로그램 설치 및 환경 확인
 <파이썬 3.10 이상>  
@@ -22,35 +22,23 @@ npx --version
 
 ```
 {
-  "mcpServers": {
-    "context7": {
-      "_comment": "https://context7.com/  키 발급 필요",
-      "type": "http",
-      "url": "https://mcp.context7.com/mcp",
-      "headers": {
-        "CONTEXT7_API_KEY": "본인 Key 입력"
-      }
-    },
-    "Exa Search": {
-      "type": "http",
-      "url": "https://mcp.exa.ai/mcp?api_key= 본인 Key 입력 &profile=increasing-mosquito-jOP8sU",
-      "headers": {}
-    }
+	"mcpServers": {
+	  "context7": {
+		"url": "https://mcp.context7.com/mcp",
+		"headers": {
+		  "CONTEXT7_API_KEY": "YOUR_API_KEYS"
+		                    
+		}
+	  }
+
+	}
   }
-}
+
 ```
 
 
 # 실습자료 제출 
-1. 프롬프트 엔지니어링 실습  
-   https://form.jotform.com/252988672307470  
-2. MCP 실습  
-   https://form.jotform.com/252988654791477  
-3. RAG 실습  
-   https://form.jotform.com/252989197758483   
-4. Agent 실습  
-   https://form.jotform.com/252988881637478  
-
+   [https://form.jotform.com/252988672307470  ](https://form.jotform.com/253277059630460)
 
 # 기타 참고 자료
 
@@ -65,7 +53,3 @@ import httpx
 
 http_client = httpx.Client(verify=False)  
 client = OpenAI(api_key=api_key, http_client=http_client)  
-
-
-
-

@@ -22,17 +22,15 @@ npx --version
 
 ```
 {
-	"mcpServers": {
-	  "context7": {
-		"url": "https://mcp.context7.com/mcp",
-		"headers": {
-		  "CONTEXT7_API_KEY": "YOUR_API_KEYS"
-		                    
-		}
-	  }
-
-	}
+  "mcpServers": {
+    "context7": {
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "YOUR_API_KEYS"
+      }
+    }
   }
+}
 
 ```
 
